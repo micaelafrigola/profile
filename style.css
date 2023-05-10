@@ -1,0 +1,87 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color:#ffe9e3 ;
+  color:#132743;
+  padding:30px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 0 auto;
+}
+h1, h2, h3{
+  color:#132743;
+  font-weight:Light 300;
+}
+li{
+  display: inline;
+}
+.img-circle{
+  width:30%;
+  border-radius:50%;
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+a{
+  text-decoration: none ;
+  color:#407088;
+  font-size: 30px;
+  transition: 0.3s ease;
+  text-align: center;
+
+}
+a:hover{
+  color:#132743 ;
+}
+.button{
+  background:#EAEAEA;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  margin: 0 auto 30px;
+  font-size: 18px;
+  display: inline-block
+}
+.container{
+  margin: 0 auto
+}
+.card {
+  background-color:rgba(255, 203, 203, 0.3) ;
+  margin: 25px auto;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+p{
+  color:#0881a3
+}
